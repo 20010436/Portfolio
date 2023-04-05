@@ -1,0 +1,429 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(141, 137, 137);
+    /* width: 434px; */
+    font-family:'Oxygen', sans-serif;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(38, 36, 36);
+}
+.main{
+    background-color: white;
+    width: 136vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color:white;
+    height:58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 180px;
+}
+.intro{
+    margin: 50px 100px;
+}
+
+
+.devinfo{
+    font-size: 10px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+
+.hello{
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 3em;
+  
+    
+}
+   
+
+.about{
+    font-size: 2.5em;
+    font-family: 'Source Code Pro', monospace;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 8px;
+}
+
+.btn{
+padding: 4px 10px;
+border-radius: 22px;
+color: white;
+background-color: rgb(63, 92, 241);
+font-weight: bold;
+font-size: 2em;
+margin: 3px 3px;
+cursor: pointer;
+}
+.devpic img{
+    height: 40vh;
+    padding: 35px;
+    
+}
+
+.moreabout{
+    font-size: 2em;
+    margin-top: 23x;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+
+}
+
+.btn:hover{
+    background-color: white;
+    color:rgb(46, 45, 45); 
+}
+
+.contactform{
+    
+    padding-top: 144px;
+    padding: 0 34px;
+    font-size: 22PX;
+    margin: 50px 70px;
+    
+    
+    
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.contactform form div{
+    padding: 18px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactform form div input{
+    width: 50vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+.mains{
+    background-color: white;
+    width: 136vw;
+}
+
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(32, 27, 179);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+
+#form-check input{
+    width: 28px;
+    margin: 3px 0;
+    padding: 2px;
+}
+
+.btn-sm{
+    font-size: 15px;
+    padding: 10px 19px;
+    margin: 12px 0
+
+}
+
+
+
+.intro h1{
+    margin: 12px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+
+}
+
+.mainintro{
+    background-color: white;
+    width: 136vw;
+    font-weight: 500;
+}
+
+
+
+.skillContainer{
+    padding: 12px;
+    margin: 50px 120px;
+
+}
+.skill{
+    width: 265px;
+    height: 8px;
+    background-color: rgb(247, 106, 106);
+    border: 2px solid black;
+    
+}
+
+.mainskill{
+    background-color: white;
+    width: 136vw;
+    margin: 0 50px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+
+}
+.eighty{
+width: 230px;
+
+}
+.fifty{
+width: 125px;
+background-color: rgb(13, 13, 233);
+}
+
+.twentyfive{
+width: 75px;
+background-color: orange;
+}
+.seventy{
+width: 180px;
+background-color: rgb(76, 212, 212);
+}
+
+.skillContainer div{
+    margin: 12px;
+}
+.mainskill h1{
+    
+    margin: 50px 160px;
+    font-family: 'Oxygen', sans-serif;
+    
+    
+}
+
+.skillContainer{
+    margin: 0px 140px;
+    padding-top: 1px;
+}
+.mainintro img{
+    padding: 12px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 198px;
+    /* margin-top: -4px; */
+}
+
+@media (max-width: 1200px) {
+    
+.devpic{
+    display: none;
+}
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    
+}
+
+.content-box{
+    margin: 50px 120px;
+}
+.service{
+    margin: 50px 120px;
+}
+
+.serviceform{
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+}
+.serviceform h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(238, 81, 130);
+}
+
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card i{
+    margin: 20px;
+    color: #ff5724;
+}
+
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.card p{
+    color: #353739;
+    text-align: center;
+}
+
+.card:hover{
+     cursor: pointer;
+
+}
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 500;
+    color: #f2f2f2;
+}
+
+.card:nth-child(1):hover{
+    background:linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255, 0,82,0.8) 100%), url('lappy.jpeg');
+    background-size: cover;
+}
+.card:nth-child(2):hover{
+    background:linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255, 0,82,0.8) 100%), url('lappy.jpeg');
+    background-size: cover;
+}
+.card:nth-child(3):hover{
+    background:linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255, 0,82,0.8) 100%), url('lappy.jpeg');
+    background-size: cover;
+}
+.card:nth-child(4):hover{
+    background:linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255, 0,82,0.8) 100%), url('lappy.jpeg');
+    background-size: cover;
+}
+.card:nth-child(5):hover{
+    background:linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255, 0,82,0.8) 100%), url('lappy.jpeg');
+    background-size: cover;
+}
+.card:nth-child(6):hover{
+    background:linear-gradient(45deg, rgba(255,28,8,0.8)0%, rgba(255, 0,82,0.8) 100%), url('lappy.jpeg');
+    background-size: cover;
+}
+
+/*...... Responsive..... */
+
+@media(max-width: 991px)
+{
+    .serviceform{
+        padding: 25px;
+    }
+    .serviceform h1{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
+.cv{
+    background: url('CV.jpeg');
+}
+
+.career{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    padding-left: 59px;
+padding-top: 0px; 
+}
